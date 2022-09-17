@@ -11,6 +11,11 @@
 		A548DDB728D4C40400412CA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548DDB628D4C40400412CA1 /* ContentView.swift */; };
 		A548DDB928D4C40500412CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548DDB828D4C40500412CA1 /* Assets.xcassets */; };
 		A548DDBC28D4C40500412CA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548DDBB28D4C40500412CA1 /* Preview Assets.xcassets */; };
+		A548DDC528D4CBA000412CA1 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548DDC428D4CBA000412CA1 /* Ring.swift */; };
+		A548DDC728D4CD7300412CA1 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548DDC628D4CD7300412CA1 /* Step.swift */; };
+		A548DDC928D4D10A00412CA1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548DDC828D4D10A00412CA1 /* Home.swift */; };
+		A548DDCB28D65BC600412CA1 /* FitnessRingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548DDCA28D65BC600412CA1 /* FitnessRingCardView.swift */; };
+		A548DDCD28D6647200412CA1 /* FitnessStepsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548DDCC28D6647200412CA1 /* FitnessStepsGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		A548DDB628D4C40400412CA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A548DDB828D4C40500412CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A548DDBB28D4C40500412CA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A548DDC428D4CBA000412CA1 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		A548DDC628D4CD7300412CA1 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		A548DDC828D4D10A00412CA1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A548DDCA28D65BC600412CA1 /* FitnessRingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRingCardView.swift; sourceTree = "<group>"; };
+		A548DDCC28D6647200412CA1 /* FitnessStepsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessStepsGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		A548DDB328D4C40400412CA1 /* MinimalAnimationApp */ = {
 			isa = PBXGroup;
 			children = (
+				A548DDC328D4CB8F00412CA1 /* Model */,
+				A548DDC228D4CB8300412CA1 /* View */,
 				A548DDB428D4C40400412CA1 /* MinimalAnimationAppApp.swift */,
 				A548DDB628D4C40400412CA1 /* ContentView.swift */,
 				A548DDB828D4C40500412CA1 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				A548DDBB28D4C40500412CA1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A548DDC228D4CB8300412CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A548DDC828D4D10A00412CA1 /* Home.swift */,
+				A548DDCA28D65BC600412CA1 /* FitnessRingCardView.swift */,
+				A548DDCC28D6647200412CA1 /* FitnessStepsGraphView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A548DDC328D4CB8F00412CA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A548DDC428D4CBA000412CA1 /* Ring.swift */,
+				A548DDC628D4CD7300412CA1 /* Step.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A548DDB728D4C40400412CA1 /* ContentView.swift in Sources */,
+				A548DDC728D4CD7300412CA1 /* Step.swift in Sources */,
+				A548DDCD28D6647200412CA1 /* FitnessStepsGraphView.swift in Sources */,
+				A548DDC928D4D10A00412CA1 /* Home.swift in Sources */,
+				A548DDC528D4CBA000412CA1 /* Ring.swift in Sources */,
 				A548DDB528D4C40400412CA1 /* MinimalAnimationAppApp.swift in Sources */,
+				A548DDCB28D65BC600412CA1 /* FitnessRingCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
